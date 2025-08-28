@@ -26,9 +26,12 @@ Já na versão **assíncrona e paralela**, o tempo total caiu para cerca de **4 
 - A **paralelização do PBKDF2** distribuiu o cálculo pesado entre múltiplos núcleos, acelerando o processamento.
 - O programa passou a aproveitar melhor os recursos de hardware, tornando-se mais escalável e eficiente.
 
-| Versão           | Tempo total |
-|------------------|-------------|
-| Síncrona         | ~44s        |
-| Assíncrona/Paral.| ~4s         |
+
+### Antes
+
+![Execução do programa](AsyncLab/img/imagem.jpg)
+
+### Depois
+![Execução do programa](AsyncLab/img/imagem2.png)
 
 > Observa-se que a combinação de operações assíncronas e processamento paralelo trouxe ganhos significativos de desempenho.
