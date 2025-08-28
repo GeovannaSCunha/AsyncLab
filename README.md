@@ -31,4 +31,4 @@ Já na versão **assíncrona e paralela**, o tempo total caiu para cerca de **4 
 | Síncrona         | ~44s        |
 | Assíncrona/Paral.| ~4s         |
 
-> Observa-se que a combinação de operações assíncronas (para I/O) e processamento paralelo (para CPU) trouxe ganhos significativos de desempenho.
+> Observa-se que a combinação de operações assíncronas e processamento paralelo trouxe ganhos significativos de desempenho.
